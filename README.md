@@ -2,28 +2,35 @@
 
 This is a simple TypeScript CLI project that demonstrates basic setup, building, and running a TypeScript-based command-line application.
 
-## Prerequisites
-- Node.js (v14 or above recommended)
-- npm (comes with Node.js)
+## How to Clone the Repository
+1. Open your terminal or command prompt.
+2. Run the following command to clone the repository:
+    ```bash
+    git clone git@github.com:mtalhafaheem/typescript-cli.git
+    ```
+3. Change into the project directory:
+    ```bash
+    cd typescript-cli
+    ```
 
 ## Setup
-Install dependencies:
-```bash
-npm install
-```
+4. Install dependencies:
+    ```bash
+    npm install
+    ```
 
 ## Development Mode
-Run the CLI directly using ts-node (TypeScript execution):
-```bash
-npm start
-```
+5. Run the CLI directly using ts-node (TypeScript execution):
+    ```bash
+    npm start
+    ```
 
 ## Production/Build Mode
-1. Build the project (compile TypeScript to JavaScript):
+6. Build the project (compile TypeScript to JavaScript):
     ```bash
     npx tsc
     ```
-2. Run the compiled JavaScript:
+7. Run the compiled JavaScript:
     ```bash
     node index.js
     ```
